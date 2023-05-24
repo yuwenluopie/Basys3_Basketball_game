@@ -1,0 +1,278 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Mar 31 14:03:25 2023
+# Process ID: 22784
+# Current directory: C:/Users/Administrator/Desktop/assignment2(1)/assignment2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19772 C:\Users\Administrator\Desktop\assignment2(1)\assignment2\assignment2.xpr
+# Log file: C:/Users/Administrator/Desktop/assignment2(1)/assignment2/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/assignment2(1)/assignment2\vivado.jou
+# Running On: DESKTOP-I5M0TKR, OS: Windows, CPU Frequency: 2096 MHz, CPU Physical cores: 12, Host memory: 16499 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment2' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.gen/sources_1'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/utils_1/imports/synth_1/Top_Module.dcp', nor could it be found using path 'C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment2/assignment2.srcs/utils_1/imports/synth_1/Top_Module.dcp'.
+WARNING: [Project 1-865] Could not find the file C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/utils_1/imports/synth_1/Top_Module.dcp
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/DaSiShang/CE339/assignment2_5/assignment2_5.srcs/utils_1/imports/synth_1/Top_Module.dcp'.
+WARNING: [Project 1-865] Could not find the file D:/DaSiShang/CE339/assignment2_5/assignment2_5.srcs/utils_1/imports/synth_1/Top_Module.dcp
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-865] Could not find the file C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/utils_1/imports/synth_1/Top_Module.dcp
+WARNING: [Project 1-865] Could not find the file C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/utils_1/imports/synth_1/Top_Module.dcp
+INFO: [Project 1-230] Project 'assignment2.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 2174.777 ; gain = 313.859
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 2492.055 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 412 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc]
+WARNING: [Vivado 12-584] No ports matched 'btnU'. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnU'. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:114]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:114]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnD'. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnD'. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:120]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2610.590 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 2737.766 ; gain = 562.988
+set_property dataflow_viewer_settings "min_width=16"   [current_fileset]
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Top_Module
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 3573.609 ; gain = 308.469
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-2551] possible infinite loop; process does not have a wait statement [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/imports/imports/four_digits.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'Top_Module' [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Top_Module.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'Clock_Divider' [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Clock_Divider.vhd:12]
+	Parameter modulo bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Clock_Divider' (0#1) [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Clock_Divider.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'Control' [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/imports/Control.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Control' (0#1) [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/imports/Control.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'vga_controller_640_60' [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/imports/vga_controller_640_60.vhd:84]
+INFO: [Synth 8-256] done synthesizing module 'vga_controller_640_60' (0#1) [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/imports/vga_controller_640_60.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'Physics' [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Physics.vhd:39]
+WARNING: [Synth 8-614] signal 'start' is read in the process but is not in the sensitivity list [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Physics.vhd:65]
+WARNING: [Synth 8-614] signal 'CUR_STATE' is read in the process but is not in the sensitivity list [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Physics.vhd:95]
+WARNING: [Synth 8-614] signal 'vx' is read in the process but is not in the sensitivity list [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Physics.vhd:95]
+WARNING: [Synth 8-614] signal 'vy' is read in the process but is not in the sensitivity list [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Physics.vhd:95]
+WARNING: [Synth 8-614] signal 'xAxis' is read in the process but is not in the sensitivity list [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Physics.vhd:95]
+WARNING: [Synth 8-614] signal 'yAxis' is read in the process but is not in the sensitivity list [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Physics.vhd:95]
+INFO: [Synth 8-256] done synthesizing module 'Physics' (0#1) [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Physics.vhd:39]
+INFO: [Synth 8-638] synthesizing module 'Graphics' [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Graphics.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'Basketball' [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Basketball.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Basketball' (0#1) [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Basketball.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'Static_display' [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Static_display.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'Player' [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Player.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'Player' (0#1) [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Player.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'basketry' [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/basketry.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'basketry' (0#1) [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/basketry.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'Static_display' (0#1) [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Static_display.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'Graphics' (0#1) [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Graphics.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'Feedback' [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Feedback.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'score' [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Score.vhd:33]
+WARNING: [Synth 8-614] signal 'CY' is read in the process but is not in the sensitivity list [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Score.vhd:66]
+WARNING: [Synth 8-614] signal 'score' is read in the process but is not in the sensitivity list [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Score.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'score' (0#1) [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Score.vhd:33]
+INFO: [Synth 8-638] synthesizing module 'four_digits' [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/imports/imports/four_digits.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'one_digit' [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/imports/imports/one_digit.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'one_digit' (0#1) [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/imports/imports/one_digit.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'Clock_Divider__parameterized0' [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Clock_Divider.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Clock_Divider__parameterized0' (0#1) [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Clock_Divider.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'four_digits' (0#1) [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/imports/imports/four_digits.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Feedback' (0#1) [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Feedback.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'Top_Module' (0#1) [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Top_Module.vhd:41]
+WARNING: [Synth 8-3848] Net T_X in module/entity Static_display does not have driver. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Static_display.vhd:36]
+WARNING: [Synth 8-3848] Net T_Y in module/entity Static_display does not have driver. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Static_display.vhd:36]
+WARNING: [Synth 8-3848] Net B_X in module/entity Static_display does not have driver. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Static_display.vhd:36]
+WARNING: [Synth 8-3848] Net B_Y in module/entity Static_display does not have driver. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Static_display.vhd:36]
+WARNING: [Synth 8-3848] Net X_offset in module/entity Static_display does not have driver. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Static_display.vhd:39]
+WARNING: [Synth 8-3848] Net hc in module/entity Graphics does not have driver. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Graphics.vhd:37]
+WARNING: [Synth 8-3848] Net vc in module/entity Graphics does not have driver. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/sources_1/new/Graphics.vhd:37]
+WARNING: [Synth 8-7129] Port CX[31] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[30] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[29] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[28] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[27] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[26] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[25] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[24] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[23] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[22] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[21] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[20] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[19] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[18] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[17] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[16] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[15] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[14] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[13] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[12] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[11] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[10] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[9] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[8] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[7] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[6] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[5] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[4] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[3] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[2] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[1] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CX[0] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[31] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[30] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[29] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[28] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[27] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[26] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[25] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[24] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[23] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[22] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[21] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[20] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[19] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[18] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[17] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[16] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[15] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[14] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[13] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[12] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[11] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[10] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[9] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[8] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[7] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[6] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[5] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[4] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[3] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[2] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[1] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CY[0] in module Feedback is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[10] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[9] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[8] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[7] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[6] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[5] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[4] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[3] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[2] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[1] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[0] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Y[10] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Y[9] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Y[8] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Y[7] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Y[6] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Y[5] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Y[4] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Y[3] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Y[2] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Y[1] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Y[0] in module Static_display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module Graphics is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[10] in module Graphics is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[9] in module Graphics is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[8] in module Graphics is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[7] in module Graphics is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[6] in module Graphics is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[5] in module Graphics is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[4] in module Graphics is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[3] in module Graphics is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[2] in module Graphics is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[1] in module Graphics is either unconnected or has no load
+WARNING: [Synth 8-7129] Port X[0] in module Graphics is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Y[10] in module Graphics is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Y[9] in module Graphics is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 3668.246 ; gain = 403.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 3686.055 ; gain = 420.914
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 3686.055 ; gain = 420.914
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 3686.055 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc]
+WARNING: [Vivado 12-584] No ports matched 'dp'. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'dp'. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnU'. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnU'. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:114]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:114]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnD'. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnD'. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc:120]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/constrs_1/imports/CE339/lab1.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3798.809 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 3804.934 ; gain = 539.793
+34 Infos, 122 Warnings, 6 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 3804.934 ; gain = 539.793
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+ERROR: [Vivado 12-3280] Incremental checkpoint file 'C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.srcs/utils_1/imports/synth_1/Top_Module.dcp' set on run 'synth_1' does not exist.
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 31 14:24:27 2023...

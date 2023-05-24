@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sim_1/imports/assignment1/main3_final_tb.vhd,1676562262,vhdl,,,,main3_final_tb,,,,,,,,
+C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/imports/four_digits.vhd,1676556531,vhdl,C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/main3_final.vhd,,,four_digits,,,,,,,,
+C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/imports/one_digit.vhd,1676546796,vhdl,C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/imports/four_digits.vhd,,,one_digit,,,,,,,,
+C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/Clock_Divider.vhd,1676556677,vhdl,C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/imports/four_digits.vhd;C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/main3_final.vhd,,,clock_divider,,,,,,,,
+C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/button_active.vhd,1676555651,vhdl,C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/main3_final.vhd,,,button_active,,,,,,,,
+C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/main3_final.vhd,1676567302,vhdl,,,,main3_final,,,,,,,,

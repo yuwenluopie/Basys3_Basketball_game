@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Mar  1 08:09:04 2023
+# Process ID: 17040
+# Current directory: C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main1_one_digit/main1_one_digit.runs/synth_1
+# Command line: vivado.exe -log main1_one_digit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main1_one_digit.tcl
+# Log file: C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main1_one_digit/main1_one_digit.runs/synth_1/main1_one_digit.vds
+# Journal file: C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main1_one_digit/main1_one_digit.runs/synth_1\vivado.jou
+# Running On: NicoleYu, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16890 MB
+#-----------------------------------------------------------
+source main1_one_digit.tcl -notrace

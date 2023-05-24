@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab2_4_1.srcs/sources_1/new/create_a_2to1multiplexer_using_behavioral_modeling.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun Feb 12 16:51:56 2023
+# Process ID: 52400
+# Current directory: C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/lab3_1_1/lab3_1_1.runs/impl_1
+# Command line: vivado.exe -log right_most_7segment_display.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source right_most_7segment_display.tcl -notrace
+# Log file: C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/lab3_1_1/lab3_1_1.runs/impl_1/right_most_7segment_display.vdi
+# Journal file: C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/lab3_1_1/lab3_1_1.runs/impl_1\vivado.jou
+# Running On: YuWenlu, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16890 MB
+#-----------------------------------------------------------
+source right_most_7segment_display.tcl -notrace

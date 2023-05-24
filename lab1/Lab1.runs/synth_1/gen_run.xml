@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1676178389" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Lab1_TopDesign.dcp">
+  <File Type="PA-TCL" Name="Lab1_TopDesign.tcl"/>
+  <File Type="REPORTS-TCL" Name="Lab1_TopDesign_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Lab1_TopDesign.vds"/>
+  <File Type="RDS-UTIL" Name="Lab1_TopDesign_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Lab1_TopDesign_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Lab1_TopDesign.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Lab1_files/Lab1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../resource/Lab1_files/Lab1.vhd"/>
+        <Attr Name="ImportTime" Val="1578387282"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab1_files/Lab1_tb.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../resource/Lab1_files/Lab1_tb.vhd"/>
+        <Attr Name="ImportTime" Val="1609230384"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../resource/Lab1_files/Lab1.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Lab1_TopDesign"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Lab1_files/lab1.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../resource/Lab1_files/lab1.xdc"/>
+        <Attr Name="ImportTime" Val="1676039689"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Lab1_TopDesign.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

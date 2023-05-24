@@ -1,0 +1,281 @@
+
+*** Running vivado
+    with args -log main3_final.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source main3_final.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source main3_final.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/utils_1/imports/synth_1/main3_final.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/utils_1/imports/synth_1/main3_final.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top main3_final -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 22840
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1254.531 ; gain = 0.000
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-2551] possible infinite loop; process does not have a wait statement [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/imports/four_digits.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'main3_final' [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/main3_final.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'button_active' [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/button_active.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'button_active' (1#1) [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/button_active.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'four_digits' [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/imports/four_digits.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'one_digit' [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/imports/one_digit.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'one_digit' (2#1) [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/imports/one_digit.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'Clock_Divider' [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/Clock_Divider.vhd:31]
+	Parameter count_end bound to: 250000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Clock_Divider' (3#1) [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/Clock_Divider.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'four_digits' (4#1) [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/imports/four_digits.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'Clock_Divider__parameterized0' [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/Clock_Divider.vhd:31]
+	Parameter count_end bound to: 50000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Clock_Divider__parameterized0' (4#1) [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/Clock_Divider.vhd:31]
+WARNING: [Synth 8-614] signal 'clk' is read in the process but is not in the sensitivity list [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/main3_final.vhd:77]
+WARNING: [Synth 8-5787] Register NX_STATE_reg in module main3_final is clocked by two different clocks in the same process. This may cause simulation mismatches and synthesis errors. Consider using different process statements  [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/main3_final.vhd:73]
+WARNING: [Synth 8-5787] Register state_transferBCD.pause_reg in module main3_final is clocked by two different clocks in the same process. This may cause simulation mismatches and synthesis errors. Consider using different process statements  [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/main3_final.vhd:91]
+WARNING: [Synth 8-5787] Register state_transferBCD.counter_sec_reg in module main3_final is clocked by two different clocks in the same process. This may cause simulation mismatches and synthesis errors. Consider using different process statements  [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/main3_final.vhd:96]
+WARNING: [Synth 8-5787] Register state_transferBCD.counter_min_reg in module main3_final is clocked by two different clocks in the same process. This may cause simulation mismatches and synthesis errors. Consider using different process statements  [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/main3_final.vhd:98]
+WARNING: [Synth 8-5787] Register NX_STATE_reg in module main3_final is clocked by two different clocks in the same process. This may cause simulation mismatches and synthesis errors. Consider using different process statements  [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/main3_final.vhd:73]
+WARNING: [Synth 8-5787] Register state_transferBCD.pause_reg in module main3_final is clocked by two different clocks in the same process. This may cause simulation mismatches and synthesis errors. Consider using different process statements  [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/main3_final.vhd:91]
+WARNING: [Synth 8-5787] Register state_transferBCD.counter_sec_reg in module main3_final is clocked by two different clocks in the same process. This may cause simulation mismatches and synthesis errors. Consider using different process statements  [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/main3_final.vhd:96]
+WARNING: [Synth 8-5787] Register state_transferBCD.counter_min_reg in module main3_final is clocked by two different clocks in the same process. This may cause simulation mismatches and synthesis errors. Consider using different process statements  [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/main3_final.vhd:98]
+WARNING: [Synth 8-5787] Register state_transferBCD.counter_min_reg in module main3_final is clocked by two different clocks in the same process. This may cause simulation mismatches and synthesis errors. Consider using different process statements  [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/main3_final.vhd:98]
+INFO: [Synth 8-256] done synthesizing module 'main3_final' (5#1) [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/main3_final.vhd:26]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1254.531 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1254.531 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1254.531 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1254.531 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/constrs_1/imports/CE339/lab1.xdc]
+Finished Parsing XDC File [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/constrs_1/imports/CE339/lab1.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/constrs_1/imports/CE339/lab1.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/main3_final_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/main3_final_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1258.891 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1258.891 ; gain = 0.000
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:19 . Memory (MB): peak = 1258.891 ; gain = 4.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:19 . Memory (MB): peak = 1258.891 ; gain = 4.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:04 ; elapsed = 00:00:19 . Memory (MB): peak = 1258.891 ; gain = 4.359
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'sw_reg' [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/main3_final.vhd:56]
+WARNING: [Synth 8-327] inferring latch for variable 'reset_reg' [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sources_1/new/main3_final.vhd:69]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:22 . Memory (MB): peak = 1258.891 ; gain = 4.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
+	   2 Input    6 Bit       Adders := 3     
+	   2 Input    4 Bit       Adders := 10    
+	   2 Input    2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                6 Bit    Registers := 4     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 2     
+	   7 Input    8 Bit        Muxes := 1     
+	   6 Input    8 Bit        Muxes := 1     
+	  60 Input    6 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 11    
+	  61 Input    6 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 2     
+	   4 Input    2 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 11    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (sw_reg[15]) is unused and will be removed from module main3_final.
+WARNING: [Synth 8-3332] Sequential element (sw_reg[7]) is unused and will be removed from module main3_final.
+WARNING: [Synth 8-3332] Sequential element (state_transferBCD.counter_sec_reg[5]_C) is unused and will be removed from module main3_final.
+WARNING: [Synth 8-3332] Sequential element (state_transferBCD.counter_sec_reg[4]_C) is unused and will be removed from module main3_final.
+WARNING: [Synth 8-3332] Sequential element (state_transferBCD.counter_sec_reg[3]_C) is unused and will be removed from module main3_final.
+WARNING: [Synth 8-3332] Sequential element (state_transferBCD.counter_sec_reg[2]_C) is unused and will be removed from module main3_final.
+WARNING: [Synth 8-3332] Sequential element (state_transferBCD.counter_sec_reg[1]_C) is unused and will be removed from module main3_final.
+WARNING: [Synth 8-3332] Sequential element (state_transferBCD.counter_sec_reg[0]_C) is unused and will be removed from module main3_final.
+WARNING: [Synth 8-3332] Sequential element (state_transferBCD.pause_reg_C) is unused and will be removed from module main3_final.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:31 . Memory (MB): peak = 1258.891 ; gain = 4.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:38 . Memory (MB): peak = 1258.891 ; gain = 4.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:38 . Memory (MB): peak = 1258.891 ; gain = 4.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:38 . Memory (MB): peak = 1258.891 ; gain = 4.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:07 ; elapsed = 00:00:42 . Memory (MB): peak = 1258.891 ; gain = 4.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:07 ; elapsed = 00:00:42 . Memory (MB): peak = 1258.891 ; gain = 4.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:07 ; elapsed = 00:00:42 . Memory (MB): peak = 1258.891 ; gain = 4.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:07 ; elapsed = 00:00:42 . Memory (MB): peak = 1258.891 ; gain = 4.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:42 . Memory (MB): peak = 1258.891 ; gain = 4.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:07 ; elapsed = 00:00:42 . Memory (MB): peak = 1258.891 ; gain = 4.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    42|
+|3     |LUT1   |     7|
+|4     |LUT2   |    43|
+|5     |LUT3   |     8|
+|6     |LUT4   |    27|
+|7     |LUT5   |    18|
+|8     |LUT6   |    76|
+|9     |MUXF7  |     1|
+|10    |FDCE   |     7|
+|11    |FDPE   |    15|
+|12    |FDRE   |   176|
+|13    |FDSE   |     5|
+|14    |LD     |    15|
+|15    |LDC    |    14|
+|16    |IBUF   |     4|
+|17    |OBUF   |    12|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:07 ; elapsed = 00:00:42 . Memory (MB): peak = 1258.891 ; gain = 4.359
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:05 ; elapsed = 00:00:41 . Memory (MB): peak = 1258.891 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:07 ; elapsed = 00:00:42 . Memory (MB): peak = 1258.891 ; gain = 4.359
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1258.891 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 72 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1258.891 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 29 instances were transformed.
+  LD => LDCE: 15 instances
+  LDC => LDCE: 14 instances
+
+Synth Design complete, checksum: 1e7262a7
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 25 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:46 . Memory (MB): peak = 1258.891 ; gain = 4.359
+INFO: [Common 17-1381] The checkpoint 'C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.runs/synth_1/main3_final.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file main3_final_utilization_synth.rpt -pb main3_final_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 17 11:00:22 2023...

@@ -1,0 +1,155 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Mar 30 22:59:30 2023
+| Host         : DESKTOP-I5M0TKR running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_Module_control_sets_placed.rpt
+| Design       : Top_Module
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    77 |
+|    Minimum number of control sets                        |    77 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   469 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    77 |
+| >= 0 to < 4        |    63 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     2 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    10 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              20 |           11 |
+| No           | No                    | Yes                    |              49 |           38 |
+| No           | Yes                   | No                     |             181 |           67 |
+| Yes          | No                    | No                     |              11 |            5 |
+| Yes          | No                    | Yes                    |             104 |           45 |
+| Yes          | Yes                   | No                     |              22 |            7 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------------------+---------------------------------------+----------------------------------------------+------------------+----------------+--------------+
+|                  Clock Signal                 |             Enable Signal             |               Set/Reset Signal               | Slice Load Count | Bel Load Count | Bels / Slice |
++-----------------------------------------------+---------------------------------------+----------------------------------------------+------------------+----------------+--------------+
+|  Physics/CCX_reg[0]_LDC_i_1_n_0     |                                       | Physics/CCX_reg[0]_LDC_i_2_n_0     |                1 |              1 |         1.00 |
+|  Physics/CCX_reg[1]_LDC_i_1_n_0     |                                       | Physics/CCX_reg[1]_LDC_i_2_n_0     |                1 |              1 |         1.00 |
+|  Physics/CCX_reg[2]_LDC_i_1_n_0     |                                       | Physics/CCX_reg[2]_LDC_i_2_n_0     |                1 |              1 |         1.00 |
+|  Physics/CCX_reg[3]_LDC_i_1_n_0     |                                       | Physics/CCX_reg[3]_LDC_i_2_n_0     |                1 |              1 |         1.00 |
+|  Physics/CCX_reg[5]_LDC_i_1_n_0     |                                       | Physics/CCX_reg[5]_LDC_i_2_n_0     |                1 |              1 |         1.00 |
+|  Physics/CCX_reg[4]_LDC_i_1_n_0     |                                       | Physics/CCX_reg[4]_LDC_i_2_n_0     |                1 |              1 |         1.00 |
+|  Physics/start                |                                       |                                              |                1 |              1 |         1.00 |
+|  Physics/NX_STATE_LDC_i_1_n_0       |                                       | Physics/NX_STATE_LDC_i_2_n_0       |                1 |              1 |         1.00 |
+|  clk_25MHz_BUFG                               |                                       |                                              |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              |                                       | Physics/vVertical_reg[1]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_25MHz_BUFG                               |                                       | VGA_Controller/HS0                           |                1 |              1 |         1.00 |
+|  Physics/vHorizontal_reg[0]_LDC_i_1_n_0 |                                       | Physics/vHorizontal_reg[0]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  Physics/vHorizontal_reg[1]_LDC_i_1_n_0 |                                       | Physics/vHorizontal_reg[1]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  Physics/vHorizontal_reg[3]_LDC_i_1_n_0 |                                       | Physics/vHorizontal_reg[3]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  Physics/vHorizontal_reg[4]_LDC_i_1_n_0 |                                       | Physics/vHorizontal_reg[4]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              |                                       | Physics/vVertical_reg[0]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              |                                       | Physics/vVertical_reg[0]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              |                                       | Physics/vVertical_reg[1]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  Physics/vHorizontal_reg[5]_LDC_i_1_n_0 |                                       | Physics/vHorizontal_reg[5]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              |                                       | Physics/vVertical_reg[2]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              |                                       | Physics/vVertical_reg[2]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              |                                       | Physics/vVertical_reg[5]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              |                                       | Physics/vVertical_reg[5]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              |                                       | Physics/vVertical_reg[4]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              |                                       | Physics/vVertical_reg[4]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              |                                       | Physics/vVertical_reg[3]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              |                                       | Physics/vVertical_reg[3]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              |                                       | Physics/vHorizontal_reg[0]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              |                                       | Physics/vHorizontal_reg[1]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              |                                       | Physics/vHorizontal_reg[2]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              |                                       | Physics/vHorizontal_reg[4]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              |                                       | Physics/vHorizontal_reg[5]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              |                                       | Physics/vHorizontal_reg[3]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              | Physics/x_Asix[31]_i_1_n_0     | Physics/CCX_reg[0]_LDC_i_2_n_0     |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              | Physics/x_Asix[31]_i_1_n_0     | Physics/CCX_reg[0]_LDC_i_1_n_0     |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              | Physics/x_Asix[31]_i_1_n_0     | Physics/CCX_reg[1]_LDC_i_2_n_0     |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              | Physics/x_Asix[31]_i_1_n_0     | Physics/CCX_reg[2]_LDC_i_2_n_0     |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              | Physics/x_Asix[31]_i_1_n_0     | Physics/CCX_reg[1]_LDC_i_1_n_0     |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              | Physics/x_Asix[31]_i_1_n_0     | Physics/CCX_reg[2]_LDC_i_1_n_0     |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              | Physics/x_Asix[31]_i_1_n_0     | Physics/CCX_reg[3]_LDC_i_1_n_0     |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              | Physics/x_Asix[31]_i_1_n_0     | Physics/CCX_reg[4]_LDC_i_2_n_0     |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              | Physics/x_Asix[31]_i_1_n_0     | Physics/CCX_reg[3]_LDC_i_2_n_0     |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              | Physics/x_Asix[31]_i_1_n_0     | Physics/CCX_reg[5]_LDC_i_1_n_0     |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              | Physics/x_Asix[31]_i_1_n_0     | Physics/CCX_reg[5]_LDC_i_2_n_0     |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              | Physics/x_Asix[31]_i_1_n_0     | Physics/CCX_reg[4]_LDC_i_1_n_0     |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              | Physics/vHorizontal[31]_i_1_n_0 | Physics/vHorizontal_reg[0]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              | Physics/vHorizontal[31]_i_1_n_0 | Physics/vHorizontal_reg[1]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              | Physics/vHorizontal[31]_i_1_n_0 | Physics/vHorizontal_reg[3]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              | Physics/vHorizontal[31]_i_1_n_0 | Physics/vHorizontal_reg[4]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              | Physics/vHorizontal[31]_i_1_n_0 | Physics/vHorizontal_reg[5]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~Vsync_OBUF_BUFG                              | Physics/vHorizontal[31]_i_1_n_0 | Physics/vHorizontal_reg[2]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                |                                       | Physics/start                |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                |                                       | Physics/NX_STATE_LDC_i_1_n_0       |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                |                                       | Physics/NX_STATE_LDC_i_2_n_0       |                1 |              1 |         1.00 |
+|  Physics/vVertical_reg[3]_LDC_i_1_n_0 |                                       | Physics/vVertical_reg[3]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  Physics/vVertical_reg[0]_LDC_i_1_n_0 |                                       | Physics/vVertical_reg[0]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  Physics/vVertical_reg[1]_LDC_i_1_n_0 |                                       | Physics/vVertical_reg[1]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  Physics/vVertical_reg[2]_LDC_i_1_n_0 |                                       | Physics/vVertical_reg[2]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  Physics/vVertical_reg[5]_LDC_i_1_n_0 |                                       | Physics/vVertical_reg[5]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  Physics/vVertical_reg[4]_LDC_i_1_n_0 |                                       | Physics/vVertical_reg[4]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  Physics/vHorizontal_reg[2]_LDC_i_1_n_0 |                                       | Physics/vHorizontal_reg[2]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  four_digits_unit/clock_5_ms/CLK              |                                       |                                              |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG                                |                                       |                                              |                3 |              3 |         1.00 |
+|  Physics/E[0]                       |                                       |                                              |                2 |              6 |         3.00 |
+|  score/sw                             |                                       |                                              |                3 |              7 |         2.33 |
+|  clk_25MHz_BUFG                               | VGA_Controller/vcounter               |                                              |                5 |             11 |         2.20 |
+|  clk_25MHz_BUFG                               |                                       | VGA_Controller/hcounter[10]_i_1_n_0          |                6 |             11 |         1.83 |
+|  clk_25MHz_BUFG                               |                                       | Basketball/DX20                              |                7 |             22 |         3.14 |
+|  clk_25MHz_BUFG                               | VGA_Controller/E[0]                   | VGA_Controller/SR[0]                         |                7 |             22 |         3.14 |
+| ~Vsync_OBUF_BUFG                              | Physics/x_Asix[31]_i_1_n_0     | Physics/CUR_STATE                  |                7 |             26 |         3.71 |
+| ~Vsync_OBUF_BUFG                              |                                       | Physics/CUR_STATE                  |               17 |             28 |         1.65 |
+| ~Vsync_OBUF_BUFG                              | Physics/vHorizontal[31]_i_1_n_0 | Physics/CUR_STATE                  |               12 |             28 |         2.33 |
+|  clk_IBUF_BUFG                                |                                       | clock_divider/count[31]_i_1_n_0                |                9 |             32 |         3.56 |
+|  clk_IBUF_BUFG                                |                                       | Control/p_2_in                            |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG                                |                                       | four_digits_unit/clock_5_ms/p_0_in           |                9 |             32 |         3.56 |
+| ~Vsync_OBUF_BUFG                              | Physics/y_Asix[31]_i_1_n_0     | Physics/CUR_STATE                  |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG                                |                                       | btnC_IBUF                                    |                8 |             32 |         4.00 |
++-----------------------------------------------+---------------------------------------+----------------------------------------------+------------------+----------------+--------------+
+
+

@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../main3_final.srcs/sources_1/new/Clock_Divider.vhd" \
+"../../../../main3_final.srcs/sources_1/new/button_active.vhd" \
+"../../../../main3_final.srcs/sources_1/imports/one_digit.vhd" \
+"../../../../main3_final.srcs/sources_1/imports/four_digits.vhd" \
+"../../../../main3_final.srcs/sources_1/new/main3_final.vhd" \
+"../../../../main3_final.srcs/sim_1/imports/assignment1/main3_final_tb.vhd" \
+
+# Do not sort compile order
+nosort

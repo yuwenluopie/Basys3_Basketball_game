@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun Feb 12 16:13:26 2023
+# Process ID: 37560
+# Current directory: C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/lab2_4_1/lab2_4_1.runs/impl_1
+# Command line: vivado.exe -log create_a_2to1multiplexer_using_behavioral_modeling.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source create_a_2to1multiplexer_using_behavioral_modeling.tcl -notrace
+# Log file: C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/lab2_4_1/lab2_4_1.runs/impl_1/create_a_2to1multiplexer_using_behavioral_modeling.vdi
+# Journal file: C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/lab2_4_1/lab2_4_1.runs/impl_1\vivado.jou
+# Running On: YuWenlu, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16890 MB
+#-----------------------------------------------------------
+source create_a_2to1multiplexer_using_behavioral_modeling.tcl -notrace

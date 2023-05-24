@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri Mar 31 08:42:00 2023
+# Process ID: 51536
+# Current directory: C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent67880 C:\Users\YuWenlu\Documents\CE339-6\22-23_CE339_yu_wenlu\assignment1\main3_final\main3_final.xpr
+# Log file: C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/vivado.log
+# Journal file: C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final\vivado.jou
+# Running On: NicoleYu, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project {C:/Users/YuWenlu/Documents/WeChat Files/wxid_eb76forzowde22/FileStorage/File/2023-03/assignment2_5_2/assignment2_5_2/assignment2_5.xpr}
+update_compile_order -fileset sources_1

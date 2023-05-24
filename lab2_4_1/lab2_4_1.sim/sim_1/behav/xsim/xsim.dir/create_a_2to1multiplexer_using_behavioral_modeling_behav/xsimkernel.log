@@ -1,0 +1,7 @@
+Running: xsim.dir/create_a_2to1multiplexer_using_behavioral_modeling_behav/xsimk.exe -simmode gui -wdb create_a_2to1multiplexer_using_behavioral_modeling_behav.wdb -simrunnum 0 -socket 53764
+Design successfully loaded
+Design Loading Memory Usage: 8540 KB (Peak: 8540 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 8996 KB (Peak: 8996 KB)
+Simulation CPU Usage: 0 ms

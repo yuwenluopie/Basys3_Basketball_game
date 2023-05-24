@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Feb 15 09:02:58 2023
+# Process ID: 62480
+# Current directory: C:/Users/YuWenlu/Documents/CE339-6\22-23_CE339_yu_wenlu\assignment1\main3_final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12128 C:\Users\YuWenlu\DocumentsCE339-6\22-23_CE339_yu_wenlu\assignment1\main3_final.xpr
+# Log file: C:/Users/YuWenlu/Documents/CE339-6\22-23_CE339_yu_wenlu\assignment1\main3_final/vivado.log
+# Journal file: C:/Users/YuWenlu/Documents/CE339-6\22-23_CE339_yu_wenlu\assignment1\main3_final\vivado.jou
+# Running On: YuWenlu, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/YuWenlu/Documents/CE339-6\22-23_CE339_yu_wenlu\assignment1\main3_final/main3_final.xpr}
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+close_design
+open_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag

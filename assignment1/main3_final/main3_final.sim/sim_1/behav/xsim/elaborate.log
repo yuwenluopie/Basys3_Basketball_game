@@ -1,0 +1,7 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xillinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot main3_final_tb_behav xil_defaultlib.main3_final_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <sw> does not exist in entity <main3_final>.  Please compare the definition of block <main3_final> to its component declaration and its instantion to detect the mismatch. [C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main3_final/main3_final.srcs/sim_1/imports/assignment1/main3_final_tb.vhd:46]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit main3_final_tb in library work failed.

@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../main1_one_digit.srcs/sources_1/new/one_digit.vhd" \
+"../../../../../../resource/Assignment1/Main/main1_one_digit.vhd" \
+
+# Do not sort compile order
+nosort

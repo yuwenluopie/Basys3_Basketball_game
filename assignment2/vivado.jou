@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri Mar 31 16:24:52 2023
+# Process ID: 13996
+# Current directory: C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent59440 C:\Users\YuWenlu\Documents\CE339-6\22-23_CE339_yu_wenlu\assignment2\assignment2.xpr
+# Log file: C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment2/vivado.log
+# Journal file: C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment2\vivado.jou
+# Running On: NicoleYu, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_guioopen_project C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment2/assignment2.xpr
+update_compile_order -fileset sources_1
+ynth_design -rtl -rtl_skip_mlo -name rtl_1

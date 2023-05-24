@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/assignment1/main1_one_digit/main1_one_digit.srcs/sources_1/new/one_digit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'one_digit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/resource/Assignment1/Main/main1_one_digit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'main1_one_digit'

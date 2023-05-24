@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun Feb 12 16:36:08 2023
+# Process ID: 41932
+# Current directory: C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/lab2_5_2/lab2_5_2.runs/impl_1
+# Command line: vivado.exe -log bcdto7segment.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source bcdto7segment.tcl -notrace
+# Log file: C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/lab2_5_2/lab2_5_2.runs/impl_1/bcdto7segment.vdi
+# Journal file: C:/Users/YuWenlu/Documents/CE339-6/22-23_CE339_yu_wenlu/lab2_5_2/lab2_5_2.runs/impl_1\vivado.jou
+# Running On: YuWenlu, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16890 MB
+#-----------------------------------------------------------
+source bcdto7segment.tcl -notrace

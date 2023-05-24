@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "create_a_2to1multiplexer_using_behavioral_modeling_behav" "xil_defaultlib.create_a_2to1multiplexer_using_behavioral_modeling" -log "elaborate.log" 

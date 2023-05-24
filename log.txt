@@ -1,0 +1,478 @@
+commit 45226019f4d7078f56203b43561a3b319d7404ed
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Mar 31 17:45:52 2023 +0800
+
+    update report and notes from the field
+
+commit 53dd442590611047a99c7f25aaf9c6ffd3abd9f5
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Mar 31 16:58:38 2023 +0800
+
+    add trajectory.
+
+commit 2c1f1c888addcd2f651a5ea30b4f99c3175d6ddb
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Mar 31 12:41:51 2023 +0800
+
+    update note
+
+commit 8f09e3e26908d47caa3c2f75c2e9dac74660ca7a
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Mar 31 12:27:25 2023 +0800
+
+    update collision coefficient
+
+commit 6be2df294d80d9645362339c05a31d08b1648c54
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Mar 31 11:21:01 2023 +0800
+
+    Update commits
+
+commit eb647a4752f260412d4891f0ab3428b73d6c273d
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Mar 31 11:09:56 2023 +0800
+
+    update finally
+
+commit ac7f96160339ca609065e0d92c9cd1cf50a2e524
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Mar 31 10:30:31 2023 +0800
+
+    update new function
+
+commit 2433ab1c1a5b63a785d871827591a96faecaed63
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Thu Mar 30 23:23:17 2023 +0800
+
+    update people movement
+
+commit 67415a4fa49a34751b4e237a626e755de8151a3b
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Thu Mar 30 22:44:30 2023 +0800
+
+    #       modified:   assignment2/vivado.jou
+    #       modified:   assignment2/vivado.log
+    #       modified:   assignment2/vivado_pid62600.str
+
+commit 4aa93020230a429aa556615cf47a83069be9d185
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Thu Mar 30 22:43:19 2023 +0800
+
+    update score counter
+
+commit 5e2187300f38f7802246a7280a93448586393d7c
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Tue Mar 28 14:43:58 2023 +0800
+
+    update rounting
+
+commit 2e636db799ac64f63104c35d14258f9d83d1e4a7
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Mon Mar 27 14:36:21 2023 +0800
+
+    update basketry shape
+
+commit 61201f19b6ec32043c8ffe0b62c3a9b7367f4933
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Mon Mar 27 14:36:02 2023 +0800
+
+    update basketry shape
+
+commit fa163addbdd52163f1e8ea90f640d3b7ab971acd
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sat Mar 25 22:21:14 2023 +0800
+
+    update anti-shaking function for centerbt
+
+commit d1e0fed34730e26e05e2387373cce4a268232515
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sat Mar 25 21:59:11 2023 +0800
+
+    update basketball
+
+commit b5b0623cf3e37ca8a41438cc97001e4cbeb45105
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sat Mar 25 21:43:46 2023 +0800
+
+    update basketball and basketry
+
+commit 16c429bbdcb3cb414ccbb2152b800a5a0f032af8
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sat Mar 25 15:00:38 2023 +0800
+
+    update top desgin
+
+commit a2eebbc4bdea86ec3753ce4a6251376ddd1c08c2
+Merge: fd0cd49 0b44602
+Author: Yu, Wenlu <wy19403@essex.ac.uk>
+Date:   Sat Mar 25 03:04:58 2023 +0000
+
+    Merge branch 'main' into 'master'
+    
+    Main
+    
+    See merge request 22-23-ce339/22-23_CE339_yu_wenlu!1
+
+commit 0b446025dda3f7f72e4633bfc4c9c4ce0bb2aeb0
+Author: Yu, Wenlu <wy19403@essex.ac.uk>
+Date:   Sat Mar 25 03:04:58 2023 +0000
+
+    Main
+
+commit fd0cd4980fb86f90cf318cd376d258da54cb9813
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Feb 17 12:24:29 2023 +0800
+
+    update <gitlab log>
+
+commit 79e8eba800c52348e5267df0b8a49e106ecdeeec
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Feb 17 11:43:06 2023 +0800
+
+    update sources
+
+commit 3785f8e2a2a24ad8a5e2ffacfca92cb7d0c44d86
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Feb 17 11:26:22 2023 +0800
+
+    update <readme>note
+
+commit 4564bedfd1aba468002f56001692d13d35d9dcc9
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Feb 17 11:23:10 2023 +0800
+
+    update readme
+
+commit dbb53240f99a29fd423b8418dd0a159dbe69768e
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Feb 17 11:20:57 2023 +0800
+
+    update main3 readme note
+
+commit aa12d3236767a7b7205922d33e760ed8030b8e05
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Feb 17 11:07:26 2023 +0800
+
+    update final function :stop counting at 00:00
+
+commit 4ab7059d9dd54c469d3d64de0d2aa0d7815b9668
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Feb 17 01:18:41 2023 +0800
+
+    update <readme>
+
+commit adf5f5ce87377a2e80f75ee83f255091733ba38b
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Feb 17 00:33:50 2023 +0800
+
+    udate <log>
+
+commit f33310004a144b0365900699778965fbdbbbef3c
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Feb 17 00:27:01 2023 +0800
+
+    update <note>
+
+commit 95be719d543166c03ebb23969fc48a7bbddd3c02
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Feb 17 00:02:37 2023 +0800
+
+    update finally note
+
+commit c6f81f9f6c59645dbe2be2dc1b0435675d0348e0
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Thu Feb 16 23:18:18 2023 +0800
+
+    update <main 3 finally performance>
+
+commit dd20743cf4c7dbfe702d61b1d43461a76dd13898
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Thu Feb 16 13:15:13 2023 +0800
+
+    add function --  Eliminate jitter
+
+commit f42fbf50c949b5b8e507c61a1892cca662536f7f
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Thu Feb 16 11:42:42 2023 +0800
+
+    update <one_digit>
+
+commit dbc8353540bbd38bc036ef04b44fcfec8dc915cb
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Thu Feb 16 11:33:38 2023 +0800
+
+    Burning into Basys3 board
+
+commit 7d6be6f01e056898c404527e5e30fb2de5012eb8
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Tue Feb 14 10:51:28 2023 +0800
+
+    update <readme>
+
+commit 2a5e468fc9997a6e9d4b61736768f0f31fcbdcf1
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Tue Feb 14 10:49:28 2023 +0800
+
+    update <readme>
+
+commit 003ae1eade6bbdcabb5ad28d839381183952ccf2
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Tue Feb 14 10:49:14 2023 +0800
+
+    update <readme>
+
+commit ecb85fe02965d47db0354dacd904f4ed474c4ff4
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Mon Feb 13 14:47:15 2023 +0800
+
+    update <main3 final>
+
+commit 915e95d3f1fe9323ea707ded264db3b5a81e7ace
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Mon Feb 13 12:42:46 2023 +0800
+
+    update <main3_final>
+
+commit 16ed1da2f8e53d17d549a1b7b6ac571f516fc4ac
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Mon Feb 13 11:39:43 2023 +0800
+
+    update <re simulation>
+
+commit c3fe161e729c5bd0edeb1a20d046d6b1705d870a
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Mon Feb 13 11:11:30 2023 +0800
+
+    update <readme>
+
+commit 4a83cf78b52fa242515851e91e27dc88b9a9f8d2
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Mon Feb 13 11:00:58 2023 +0800
+
+    update <main2 four digits>
+
+commit be6f81f29614e682795710b5be47de5b8052f096
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Mon Feb 13 11:00:37 2023 +0800
+
+    update <main1 one digit>
+
+commit 3f4083c03ee44122d6507daec9c9bf291caba44b
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sun Feb 12 16:54:07 2023 +0800
+
+    update <lab3_1_1>
+
+commit 8b23215c7e2a22007c6015b8a1058c161d4154ad
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sun Feb 12 16:40:38 2023 +0800
+
+    update <lab2_5_2>
+
+commit 5f0c847d06ed30f1cf1e15b47d07f8a39bcffce9
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sun Feb 12 16:40:19 2023 +0800
+
+    update <lab2_5_2>
+
+commit 5c3a7d460c34411aff0d4027d30d0829ee03b558
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sun Feb 12 16:39:55 2023 +0800
+
+    update <lab2_5_2>
+
+commit 3fcc87173fcb7134a6e440d32e26dd6c75ae3f69
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sun Feb 12 16:32:01 2023 +0800
+
+    update <lab2_4_2>
+
+commit d0b1e2e6455165fe919ff6217b7456e09e8f5025
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sun Feb 12 16:15:41 2023 +0800
+
+    update <lab2_4_1>
+
+commit fe2160801027de15e3f219c0e37c8dbd22667a9d
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sun Feb 12 16:15:15 2023 +0800
+
+    update <lab2_4_1>
+
+commit 4b0a4efbd630537cb7497ce111b8e821df38b37d
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sun Feb 12 16:03:06 2023 +0800
+
+    update <lab2_3_1>
+
+commit a803f060d60c3491bea8e812f09be537826081f2
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sun Feb 12 16:02:18 2023 +0800
+
+    update <lab 2_3_1>
+
+commit 80ec64e4afe087450fed83f7ed8c9eae5c85adce
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sun Feb 12 15:26:25 2023 +0800
+
+    update <README>
+
+commit 866f8b4cd0bc98e9c064b912f7f9c89e9f5f3caf
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sun Feb 12 14:20:18 2023 +0800
+
+    update <readme>
+
+commit 430748280aa852ccfa6b28203a691a58d8fb9ce0
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sun Feb 12 13:58:46 2023 +0800
+
+    update<lab2_2_2>
+
+commit a1bb5c70b3ea44efc3f21e6712feb945edd4d879
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sun Feb 12 13:41:45 2023 +0800
+
+    update <lab2_2_1>
+
+commit 3547db4ea443d6644b4acd50848def384918022d
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sun Feb 12 13:40:50 2023 +0800
+
+    update<lab2_2_1>
+
+commit cec01142ff1ca0d57ab355d20b2b2f3a35e26d1b
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sun Feb 12 13:16:59 2023 +0800
+
+    update <lab1>
+
+commit f1674d80c2e79a12d09fabbee3585de8bd9fd379
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sun Feb 12 13:15:41 2023 +0800
+
+    update <lab1>
+
+commit 4c87a9d86306dba116ecc5fb1bcfdf702eb1bf55
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sun Feb 12 12:23:32 2023 +0800
+
+    update <main2_four_digit>
+
+commit 1db5dfd8bacd88634e38e83133d81f3f1bbada18
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sun Feb 12 12:22:37 2023 +0800
+
+    update <main2_four_digit>
+
+commit e798df618cf53dd146b8a9d96eaa8721ecf365b4
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sat Feb 11 22:15:57 2023 +0800
+
+    update <main1_one_digit>
+
+commit 680a44fbb8fc0b41e72e3acace6d68782c79c5dd
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sat Feb 11 21:09:42 2023 +0800
+
+    update <assignment1>
+
+commit 5ed82cccda753eb4006082fe7d4bd7a0ee3e1748
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sat Feb 11 15:40:27 2023 +0800
+
+    update<Assignment 1>
+
+commit fc4e80d21696a19bdf84f5be4c7cd16ffd4095d0
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sat Feb 11 15:26:01 2023 +0800
+
+    update <lab3_1_1>
+    
+    Co-authored-by: NicoleYu <wy19403@essex.ac.uk>
+
+commit e0055e53ddd09fa001ffac78fdc786cbdea0bcbc
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sat Feb 11 14:47:22 2023 +0800
+
+    update <resource>
+
+commit 8a642d72c36b175e628ad1572f60480449709d9a
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sat Feb 11 14:43:14 2023 +0800
+
+    update <lab2_5_2>
+
+commit 65ed4778fa6a78dd1b65b385d94675dd5c1e701a
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sat Feb 11 10:36:59 2023 +0800
+
+    update <lab2_4_2>
+
+commit ff73d0b3ca728f8589b3c18d4b0c73d3401d3276
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sat Feb 11 10:16:12 2023 +0800
+
+    update <README.md>
+
+commit 7257c4ef2501f8fd4cd9e4e43dda6426051fab7d
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sat Feb 11 10:15:20 2023 +0800
+
+    update <lab2_4_1>
+    
+    Co-authored-by: NicoleYu <wy19403@essex.ac.uk>
+
+commit 1520031a60e47b570a36658762f1b646b4dfe846
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sat Feb 11 09:37:36 2023 +0800
+
+    Update <lab2_3_1>
+
+commit c6c9a5ac48bf4fe2da8c7fef9effdfcbe777f17a
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Sat Feb 11 09:09:04 2023 +0800
+
+    Update <lab2_2_3>
+
+commit ee7d1171e9d57bb0780a5def6965d0c53c9c1f49
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Feb 10 23:49:49 2023 +0800
+
+    Update <lab2_2_2>
+
+commit 2efea53baa74470b4086b7d0bf30de3e69c96af0
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Feb 10 23:39:09 2023 +0800
+
+    Update <lab2_2_1>
+
+commit 6e4deaa3bfd33a5ad523c5bf6ac87f096972401f
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Feb 10 22:54:32 2023 +0800
+
+    Update <lab1>
+
+commit 807e0eac9e1555c588c29518f4be3e06cd6b7b90
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Feb 10 11:20:33 2023 +0800
+
+    Update <README.md>
+
+commit 1696aa5b0dcda7213fb496e84f25d80aabed1b45
+Author: NicoleYu <wy19403@essex.ac.uk>
+Date:   Fri Feb 10 10:47:53 2023 +0800
+
+    Update <Lab1 code and performance>
+
+commit 1a30e0b754ae7953f7341fb9a5bac1e4fa67630d
+Author: CSEE Gitlab Administrator <root@cseegit.essex.ac.uk>
+Date:   Wed Jan 11 14:48:27 2023 +0000
+
+    Deleting testfile now that master branch has been created
+
+commit eab5be2dfa697fd5b7c215f508688388ce66b38b
+Author: Administrator <ces-faults@essex.ac.uk>
+Date:   Wed Jan 11 14:48:27 2023 +0000
+
+    Create testfile to force master branch creation

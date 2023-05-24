@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../assignment2_5.srcs/sources_1/new/Basketball.vhd" \
+"../../../../assignment2_5.srcs/sources_1/new/Player.vhd" \
+"../../../../assignment2_5.srcs/sources_1/new/Physics.vhd" \
+"../../../../assignment2_5.srcs/sources_1/new/Clock_Divider.vhd" \
+"../../../../assignment2_5.srcs/sources_1/imports/Step_3_main3_final/Control.vhd" \
+"../../../../assignment2_5.srcs/sources_1/imports/assignment2/vga_controller_640_60.vhd" \
+"../../../../assignment2_5.srcs/sources_1/new/basket_bottom.vhd" \
+"../../../../assignment2_5.srcs/sources_1/new/basket_middle.vhd" \
+"../../../../assignment2_5.srcs/sources_1/new/basket_top.vhd" \
+"../../../../assignment2_5.srcs/sources_1/imports/Step_3_main3_final/one_digit.vhd" \
+"../../../../assignment2_5.srcs/sources_1/imports/Step_3_main3_final/four_digits.vhd" \
+"../../../../assignment2_5.srcs/sources_1/new/Top_Module.vhd" \
+
+# Do not sort compile order
+nosort

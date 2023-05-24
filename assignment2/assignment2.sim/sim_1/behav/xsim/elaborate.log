@@ -1,0 +1,31 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xillinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_Module_behav xil_defaultlib.Top_Module -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'xAxis' [C:/Users/YuWenlu/Desktop/assignment2_5_1 - ����/assignment2_5_1 - ����/assignment2_5.srcs/sources_1/new/Physics.vhd:50]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'yAxis' [C:/Users/YuWenlu/Desktop/assignment2_5_1 - ����/assignment2_5_1 - ����/assignment2_5.srcs/sources_1/new/Physics.vhd:51]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'basketball_vHorizontal' [C:/Users/YuWenlu/Desktop/assignment2_5_1 - ����/assignment2_5_1 - ����/assignment2_5.srcs/sources_1/new/Physics.vhd:57]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'basketball_vVertical' [C:/Users/YuWenlu/Desktop/assignment2_5_1 - ����/assignment2_5_1 - ����/assignment2_5.srcs/sources_1/new/Physics.vhd:58]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Clock_Divider [clock_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.Control [Control_default]
+Compiling architecture behavioral of entity xil_defaultlib.vga_controller_640_60 [vga_controller_640_60_default]
+Compiling architecture behavioral of entity xil_defaultlib.Player [Player_default]
+Compiling architecture behavioral of entity xil_defaultlib.Physics [Physics_default]
+Compiling architecture behavioral of entity xil_defaultlib.Basketball [basketball_default]
+Compiling architecture behavioral of entity xil_defaultlib.basket_bottom [basket_bottom_default]
+Compiling architecture behavioral of entity xil_defaultlib.basket_middle [basket_middle_default]
+Compiling architecture behavioral of entity xil_defaultlib.basket_top [basket_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.one_digit [one_digit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Clock_Divider [\Clock_Divider(modulo=499999)\]
+Compiling architecture behavioral of entity xil_defaultlib.four_digits [four_digits_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top_Module
+Built simulation snapshot Top_Module_behav

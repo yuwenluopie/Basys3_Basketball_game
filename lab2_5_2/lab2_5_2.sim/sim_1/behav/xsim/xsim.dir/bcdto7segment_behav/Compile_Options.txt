@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "bcdto7segment_behav" "xil_defaultlib.bcdto7segment" -log "elaborate.log" 

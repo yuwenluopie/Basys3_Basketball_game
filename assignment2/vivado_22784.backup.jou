@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Mar 31 14:03:25 2023
+# Process ID: 22784
+# Current directory: C:/Users/Administrator/Desktop/assignment2(1)/assignment2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19772 C:\Users\Administrator\Desktop\assignment2(1)\assignment2\assignment2.xpr
+# Log file: C:/Users/Administrator/Desktop/assignment2(1)/assignment2/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/assignment2(1)/assignment2\vivado.jou
+# Running On: DESKTOP-I5M0TKR, OS: Windows, CPU Frequency: 2096 MHz, CPU Physical cores: 12, Host memory: 16499 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Administrator/Desktop/assignment2(1)/assignment2/assignment2.xpr
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+set_property dataflow_viewer_settings "min_width=16"   [current_fileset]
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12

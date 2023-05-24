@@ -1,0 +1,24 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YuWenlu/Desktop/assignment2_5_1 - ����/assignment2_5_1 - ����/assignment2_5.srcs/sources_1/new/Basketball.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Basketball'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YuWenlu/Desktop/assignment2_5_1 - ����/assignment2_5_1 - ����/assignment2_5.srcs/sources_1/new/Player.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Player'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YuWenlu/Desktop/assignment2_5_1 - ����/assignment2_5_1 - ����/assignment2_5.srcs/sources_1/new/Physics.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Physics'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YuWenlu/Desktop/assignment2_5_1 - ����/assignment2_5_1 - ����/assignment2_5.srcs/sources_1/new/Clock_Divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Clock_Divider'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YuWenlu/Desktop/assignment2_5_1 - ����/assignment2_5_1 - ����/assignment2_5.srcs/sources_1/imports/SteControlnal/Key_Debounce.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Control'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YuWenlu/Desktop/assignment2_5_1 - ����/assignment2_5_1 - ����/assignment2_5.srcs/sources_1/imports/assignment2/vga_controller_640_60.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'vga_controller_640_60'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YuWenlu/Desktop/assignment2_5_1 - ����/assignment2_5_1 - ����/assignment2_5.srcs/sources_1/new/basket_bottom.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'basket_bottom'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YuWenlu/Desktop/assignment2_5_1 - ����/assignment2_5_1 - ����/assignment2_5.srcs/sources_1/new/basket_middle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'basket_middle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YuWenlu/Desktop/assignment2_5_1 - ����/assignment2_5_1 - ����/assignment2_5.srcs/sources_1/new/basket_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'basket_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YuWenlu/Desktop/assignment2_5_1 - ����/assignment2_5_1 - ����/assignment2_5.srcs/sources_1/imports/Step_3_main3_final/one_digit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'one_digit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YuWenlu/Desktop/assignment2_5_1 - ����/assignment2_5_1 - ����/assignment2_5.srcs/sources_1/imports/Step_3_main3_final/four_digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'four_digits'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YuWenlu/Desktop/assignment2_5_1 - ����/assignment2_5_1 - ����/assignment2_5.srcs/sources_1/new/Top_Module.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_Module'
