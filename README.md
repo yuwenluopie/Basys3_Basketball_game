@@ -6,12 +6,9 @@
  * @FilePath: \undefinedc:\Users\YuWenlu\Documents\CE339-6\22-23_CE339_yu_wenlu\README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
-# _CE339_High Level Digital Design_
+# High Level Digital Design_
 
 #### By _**{Yu Wenlu wy19403@essex.ac.uk University of Essex}**_
-
-#### _This project is an assignment submission for the CE339 course_
-
 
 ## Technologies Used
 
@@ -33,6 +30,7 @@
 * _Burn lab project to Basys3 board_
 
 ## Performance
+![image](https://github.com/yuwenluopie/Basys3_Basketball_game/assets/88228465/2c677000-33ab-4e43-b19d-859e11372d16)
 
 #### please click every link below to check lab performance
 
